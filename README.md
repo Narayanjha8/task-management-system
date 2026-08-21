@@ -161,38 +161,38 @@ MongoDB Atlas was used to store users and tasks. MongoDB works well with Node.js
 
 JWT is used to authenticate users. Protected task APIs require a valid JWT token.
 
-### User-Specific Tasks
+ User-Specific Tasks
 
 Each task is associated with the logged-in user. This ensures that users can only access and manage their own tasks.
 
-### Simple Analytics
+ Simple Analytics
 
 The dashboard provides basic task statistics such as total, completed, pending tasks and completion percentage.
 
-### Simple UI
+ Simple UI
 
 The application was designed to be clean, responsive and easy to use while focusing on the main requirements of the assignment.
 
-## Project Structure
+ Project Structure
 
 task-management-system
-│
-├── backend
-│   ├── server.js
-│   ├── User.js
-│   ├── Task.js
-│   ├── package.json
-│   └── .env
-│
-├── frontend
-│   ├── src
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   ├── index.css
-│   │   └── main.jsx
-│   └── package.json
-│
-└── README.md
+
+ ── backend
+   ── server.js
+   ── User.js
+   ── Task.js
+   ── package.json
+   ── .env
+
+── frontend
+   ── src
+      ── App.jsx
+      ── App.css
+      ── index.css
+      ── main.jsx
+   ── package.json
+
+ README.md
 
 ## Future Improvements
 
