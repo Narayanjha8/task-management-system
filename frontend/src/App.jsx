@@ -2,8 +2,7 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 import './App.css'
 
-const API = 'http://localhost:5001'
-
+const API = 'https://task-management-backend-7x3q.onrender.com'
 function App() {
   const [page, setPage] = useState('login')
   const [token, setToken] = useState(localStorage.getItem('token'))
